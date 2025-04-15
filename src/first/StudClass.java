@@ -1,3 +1,5 @@
+package first;
+
 public class StudClass {
     public static void main(String[] args){
         double height = 1.635;
