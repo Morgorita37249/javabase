@@ -40,7 +40,7 @@ public class DoublyLinkedList {
             new_node.prev = curr_node;
         }
     }
-    public void printList(){
+    public void printList(){//O(n) вставка в конец
         DoublyLinkedList.Node current = this.head;
         int i = 0;
         while (current != null){
